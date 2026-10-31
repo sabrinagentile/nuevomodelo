@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Portfolio Profesional - Asesoría EFIP 1 y 2 - Sabrina Gentile</title>
+    <meta name="description" content="Asesoría experta y clases personalizadas para aprobar los exámenes finales EFIP 1 y 2 de Abogacía en la Universidad Siglo 21. Preparate con un método probado y rendí con seguridad.">
+    <meta name="keywords" content="EFIP 1, EFIP 2, Abogacía, Siglo 21, clases particulares, asesoría, derecho, examen final, Sabrina Gentile">
+    <meta name="author" content="Sabrina Gentile">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Configuración personalizada de Tailwind -->
+    <script>
+        tailwind.config = {
+            darkMode: 'media',
+            theme: {
+                extend: {
+                    colors: {
+                        cream: '#F4F0EA',
+                        dark: '#111827',
+                        // Paleta Pop/Neo-Brutalista
+                        indigo: {
+                            DEFAULT: '#4F46E5',
+                            light: '#818CF8',
+                            dark: '#3730A3',
+                        },
+                        coral: {
+                            DEFAULT: '#FF6B6B',
+                            light: '#FF8787',
+                            dark: '#E03131',
+                        },
+                        mint: '#69DB7C',
+                        yellow: '#FCC419'
+                    },
+                    fontFamily: {
+                        sans: ['"Space Grotesk"', 'sans-serif'],
+                    },
+                    boxShadow: {
+                        // Sombras sólidas características del neo-brutalismo
+                        'brutal': '6px 6px 0px 0px #111827',
+                        'brutal-lg': '10px 10px 0px 0px #111827',
+                        'brutal-white': '6px 6px 0px 0px #F4F0EA',
+                        'brutal-lg-white': '10px 10px 0px 0px #F4F0EA',
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom Styles -->
+    <style>
+        body {
+            background-color: #F4F0EA;
+            color: #111827;
+        }
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #111827;
+                color: #F4F0EA;
+            }
+        }
+        
+        /* Animación del Ticker/Marquee superior */
+        .marquee-container {
+            overflow: hidden;
+            white-space: nowrap;
+        }
+        .marquee-content {
+            display: inline-block;
+            animation: marquee 20s linear infinite;
+        }
+        @keyframes marquee {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+
+        /* Utilidades para Dark Mode Brutalista */
+        .dark-brutal-border {
+            border-color: #111827;
+        }
+        @media (prefers-color-scheme: dark) {
+            .dark-brutal-border { border-color: #F4F0EA; }
+            .shadow-brutal { box-shadow: 6px 6px 0px 0px #F4F0EA; }
+            .hover\:shadow-brutal-lg:hover { box-shadow: 10px 10px 0px 0px #F4F0EA; }
+            .dark-bg-card { background-color: #1F2937; }
+        }
+    </style>
+</head>
+<body class="selection:bg-coral selection:text-white">
+
+    <!-- Ticker Tape Animado -->
+    <div class="bg-yellow border-b-4 border-dark dark-brutal-border text-dark font-bold text-sm tracking-widest uppercase py-2 marquee-container">
+        <div class="marquee-content">
+            <span class="mx-4">🔥 INSCRIPCIONES ABIERTAS PARA EFIP 1 Y 2</span>
+            <span class="mx-4">⚡ ASEGURÁ TU LUGAR</span>
+            <span class="mx-4">🔥 INSCRIPCIONES ABIERTAS PARA EFIP 1 Y 2</span>
+            <span class="mx-4">⚡ ASEGURÁ TU LUGAR</span>
+            <span class="mx-4">🔥 INSCRIPCIONES ABIERTAS PARA EFIP 1 Y 2</span>
+            <span class="mx-4">⚡ ASEGURÁ TU LUGAR</span>
+            <span class="mx-4">🔥 INSCRIPCIONES ABIERTAS PARA EFIP 1 Y 2</span>
+            <span class="mx-4">⚡ ASEGURÁ TU LUGAR</span>
+            <!-- Duplicado para loop infinito fluido -->
+            <span class="mx-4">🔥 INSCRIPCIONES ABIERTAS PARA EFIP 1 Y 2</span>
+            <span class="mx-4">⚡ ASEGURÁ TU LUGAR</span>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <nav class="border-b-4 border-dark dark-brutal-border bg-cream dark:bg-dark p-4 sm:p-6 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <div class="font-bold text-2xl tracking-tighter uppercase flex items-center gap-2">
+                <div class="w-8 h-8 bg-indigo border-2 border-dark dark-brutal-border rounded-full"></div>
+                SABRINA GENTILE
+            </div>
+            <a href="https://api.whatsapp.com/send?phone=5491126723971" target="_blank" class="hidden sm:inline-block border-2 border-dark dark-brutal-border bg-white dark:bg-dark text-dark dark:text-cream px-6 py-2 font-bold uppercase hover:bg-coral hover:text-white transition-colors">
+                Hablemos
+            </a>
+        </div>
+    </nav>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 py-12 md:py-20 space-y-32">
+
+        <!-- Hero Section -->
+        <section class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center">
+            
+            <!-- Texto (Izquierda) -->
+            <div class="order-2 lg:order-1 flex flex-col items-start gap-8">
+                <div class="bg-mint border-2 border-dark dark-brutal-border px-4 py-1 text-dark font-bold uppercase text-sm transform -rotate-2 shadow-brutal inline-block">
+                    Aprobá el final sin estrés
+                </div>
+                
+                <h1 class="text-6xl sm:text-7xl lg:text-8xl font-black uppercase leading-[0.9] tracking-tighter">
+                    Rendí <br>
+                    <span class="text-indigo">EFIP 1 y 2</span> <br>
+                    con éxito.
+                </h1>
+                
+                <p class="text-xl font-medium max-w-lg">
+                    Método de estudio probado, clases en vivo e interacción constante. Dejá atrás los nervios y enfocate en obtener tu título en la Siglo 21.
+                </p>
+
+                <div class="w-full sm:w-auto">
+                    <a href="https://api.whatsapp.com/send?phone=5491126723971&text=Hola,%20quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20las%20clases%20de%20EFIP." target="_blank" rel="noopener noreferrer" class="group relative inline-flex items-center justify-center w-full sm:w-auto">
+                        <span class="absolute inset-0 bg-dark dark:bg-cream border-4 border-dark dark-brutal-border translate-x-2 translate-y-2 group-hover:translate-x-3 group-hover:translate-y-3 transition-transform"></span>
+                        <span class="relative w-full sm:w-auto inline-flex items-center justify-center px-10 py-5 bg-coral border-4 border-dark dark-brutal-border text-white font-bold text-lg uppercase tracking-wide group-hover:-translate-y-1 group-hover:-translate-x-1 transition-transform">
+                            <svg class="w-6 h-6 mr-3 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.06 21.94L7.31 20.58C8.75 21.37 10.36 21.82 12.04 21.82C17.5 21.82 21.95 17.37 21.95 11.91C21.95 9.27 20.92 6.83 19.17 4.99C17.42 3.14 14.87 2 12.04 2ZM12.04 3.67C16.56 3.67 20.28 7.38 20.28 11.91C20.28 16.44 16.56 20.15 12.04 20.15C10.51 20.15 9.04 19.74 7.77 19L7.29 18.73L4.93 19.41L5.63 17.11L5.34 16.62C4.38 15.11 3.8 13.51 3.8 11.91C3.8 7.38 7.52 3.67 12.04 3.67ZM9.15 8.1C8.93 8.1 8.74 8.11 8.57 8.13C8.4 8.14 8.12 8.22 7.88 8.47C7.64 8.72 7.03 9.3 7.03 10.4C7.03 11.5 7.91 12.54 8.05 12.71C8.2 12.88 10.13 15.86 12.96 17.08C15.33 18.06 15.8 17.84 16.22 17.79C16.64 17.74 17.58 17.16 17.79 16.56C18 15.96 18 15.46 17.92 15.35C17.83 15.24 17.68 15.18 17.41 15.05C17.14 14.92 15.74 14.25 15.49 14.15C15.24 14.05 15.08 14.01 14.92 14.26C14.76 14.51 14.24 15.18 14.1 15.35C13.96 15.52 13.81 15.54 13.54 15.41C13.27 15.28 12.23 14.93 11.01 13.87C10.02 13.01 9.35 12.03 9.19 11.78C9.03 11.53 9.17 11.39 9.3 11.27C9.42 11.16 9.57 10.96 9.71 10.81C9.85 10.66 9.89 10.55 9.97 10.4C10.05 10.25 10.01 10.12 9.94 10.01C9.87 9.9 9.34 8.54 9.15 8.1Z"></path></svg>
+                            QUIERO INFO
+                        </span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Contenedor del Video (Retro OS Window) -->
+            <div class="order-1 lg:order-2 flex justify-center lg:justify-end relative">
+                <!-- Ventana Brutalista -->
+                <div class="w-full max-w-[320px] sm:max-w-sm bg-white dark:bg-dark border-4 border-dark dark-brutal-border shadow-brutal hover:shadow-brutal-lg transform transition-all hover:-translate-y-2 hover:-translate-x-2 z-10 flex flex-col">
+                    
+                    <!-- Top Bar tipo Retro OS -->
+                    <div class="border-b-4 border-dark dark-brutal-border bg-yellow text-dark px-4 py-3 flex items-center justify-between">
+                        <div class="flex gap-2">
+                            <div class="w-4 h-4 rounded-full border-2 border-dark bg-coral"></div>
+                            <div class="w-4 h-4 rounded-full border-2 border-dark bg-white"></div>
+                            <div class="w-4 h-4 rounded-full border-2 border-dark bg-indigo"></div>
+                        </div>
+                        <div class="font-bold text-xs uppercase tracking-widest">sabrina_intro.mp4</div>
+                    </div>
+
+                    <!-- Area de Video -->
+                    <div class="relative w-full aspect-[9/16] bg-dark overflow-hidden">
+                        <video class="absolute inset-0 w-full h-full object-cover" controls playsinline poster="https://placehold.co/720x1280/111827/F4F0EA?font=space-grotesk&text=PLAY">
+                            <source src="https://raw.githubusercontent.com/sabrinagentile/Asesoria/main/prueba.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+                
+                <!-- Decoraciones flotantes -->
+                <div class="absolute -bottom-8 -left-8 w-24 h-24 bg-coral rounded-full border-4 border-dark dark-brutal-border shadow-brutal -z-10 hidden sm:block"></div>
+                <div class="absolute -top-8 -right-8 w-16 h-16 bg-indigo border-4 border-dark dark-brutal-border shadow-brutal transform rotate-12 -z-10 hidden sm:block"></div>
+            </div>
+
+        </section>
+
+        <!-- Metodología Neo-Brutalista -->
+        <section>
+            <div class="mb-12 border-b-4 border-dark dark-brutal-border pb-6 flex items-end justify-between flex-wrap gap-4">
+                <h2 class="text-5xl font-black uppercase">El Método<br>Del Éxito</h2>
+                <p class="font-bold text-lg">4 Pilares Fundamentales.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Card 1 -->
+                <div class="bg-white dark:bg-dark-bg-card border-4 border-dark dark-brutal-border p-8 shadow-brutal hover:shadow-brutal-lg hover:-translate-y-2 hover:-translate-x-2 transition-all relative overflow-hidden group">
+                    <div class="absolute -right-4 -top-4 w-20 h-20 bg-indigo border-4 border-dark dark-brutal-border rounded-full group-hover:scale-110 transition-transform"></div>
+                    <div class="relative z-10">
+                        <div class="text-4xl font-black mb-4">01</div>
+                        <h3 class="text-xl font-bold uppercase mb-3">Clases en Vivo</h3>
+                        <p class="font-medium">Dinámicas y en tiempo real. La mejor manera de resolver dudas y participar activamente.</p>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="bg-coral border-4 border-dark dark-brutal-border p-8 shadow-brutal hover:shadow-brutal-lg hover:-translate-y-2 hover:-translate-x-2 transition-all text-dark group">
+                    <div class="text-4xl font-black mb-4">02</div>
+                    <h3 class="text-xl font-bold uppercase mb-3 text-white">Grupos Reducidos</h3>
+                    <p class="font-medium">Formamos grupos por WhatsApp para asegurar un aprendizaje colaborativo y cercano.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="bg-mint border-4 border-dark dark-brutal-border p-8 shadow-brutal hover:shadow-brutal-lg hover:-translate-y-2 hover:-translate-x-2 transition-all text-dark">
+                    <div class="text-4xl font-black mb-4">03</div>
+                    <h3 class="text-xl font-bold uppercase mb-3">Soporte 24/7</h3>
+                    <p class="font-medium">Apoyo permanente vía WhatsApp. En este proceso, nunca vas a estar solo/a.</p>
+                </div>
+                <!-- Card 4 -->
+                <div class="bg-white dark:bg-dark-bg-card border-4 border-dark dark-brutal-border p-8 shadow-brutal hover:shadow-brutal-lg hover:-translate-y-2 hover:-translate-x-2 transition-all relative overflow-hidden group">
+                    <div class="absolute -bottom-4 -left-4 w-20 h-20 bg-yellow border-4 border-dark dark-brutal-border rounded-full group-hover:scale-110 transition-transform"></div>
+                    <div class="relative z-10">
+                        <div class="text-4xl font-black mb-4">04</div>
+                        <h3 class="text-xl font-bold uppercase mb-3">Material Exclusivo</h3>
+                        <p class="font-medium">Guías actualizadas y resolución de casos prácticos al estilo de la mesa examinadora.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Planes (Pricing) -->
+        <section>
+            <h2 class="text-5xl font-black uppercase mb-16 text-center">Inversión</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center max-w-6xl mx-auto">
+                <!-- Plan 1 -->
+                <div class="bg-white dark:bg-dark-bg-card border-4 border-dark dark-brutal-border p-8 shadow-brutal flex flex-col h-full">
+                    <div class="bg-dark text-white font-bold inline-block px-4 py-1 uppercase text-sm mb-6 w-max border-2 border-dark dark:border-white">EFIP 1</div>
+                    <h3 class="text-2xl font-black uppercase mb-2">Regular Full</h3>
+                    <div class="text-5xl font-black my-6">$390.000</div>
+                    <p class="font-medium mb-8 border-t-4 border-dark dark-brutal-border pt-6 flex-grow">5 semanas de duración. Cobertura completa del programa de estudio.</p>
+                    <a href="https://api.whatsapp.com/send?phone=5491126723971&text=Hola,%20quisiera%20contratar%20el%20PACK%20REGULAR%20FULL%20(EFIP%201)." class="w-full py-4 border-4 border-dark dark-brutal-border bg-yellow text-dark font-black uppercase text-center hover:bg-dark hover:text-white transition-colors">Seleccionar</a>
+                </div>
+
+                <!-- Plan 2 (Destacado) -->
+                <div class="bg-indigo border-4 border-dark dark-brutal-border p-8 shadow-brutal-lg flex flex-col h-full transform md:-translate-y-4 text-white">
+                    <div class="bg-coral text-dark border-4 border-dark font-black inline-block px-4 py-1 uppercase text-sm mb-6 w-max shadow-brutal">🔥 Más Elegido</div>
+                    <h3 class="text-2xl font-black uppercase mb-2">Intensivo</h3>
+                    <div class="text-6xl font-black my-6 text-yellow">$260.000</div>
+                    <p class="font-medium mb-8 border-t-4 border-dark pt-6 flex-grow">4 Días de duración. Foco extremo en casos prácticos y expresión oral.</p>
+                    <a href="https://api.whatsapp.com/send?phone=5491126723971&text=Hola,%20quisiera%20contratar%20el%20PACK%20INTENSIVO." class="w-full py-5 border-4 border-dark bg-coral text-white font-black uppercase text-center shadow-[4px_4px_0px_#111827] hover:translate-y-1 hover:translate-x-1 hover:shadow-none transition-all">Contratar Ahora</a>
+                </div>
+
+                <!-- Plan 3 -->
+                <div class="bg-white dark:bg-dark-bg-card border-4 border-dark dark-brutal-border p-8 shadow-brutal flex flex-col h-full">
+                    <div class="bg-dark text-white font-bold inline-block px-4 py-1 uppercase text-sm mb-6 w-max border-2 border-dark dark:border-white">EFIP 2</div>
+                    <h3 class="text-2xl font-black uppercase mb-2">Regular Full</h3>
+                    <div class="text-5xl font-black my-6">$420.000</div>
+                    <p class="font-medium mb-8 border-t-4 border-dark dark-brutal-border pt-6 flex-grow">5 semanas de duración. Práctica jurisprudencial y estrategia.</p>
+                    <a href="https://api.whatsapp.com/send?phone=5491126723971&text=Hola,%20quisiera%20contratar%20el%20PACK%20REGULAR%20FULL%20(EFIP%202)." class="w-full py-4 border-4 border-dark dark-brutal-border bg-yellow text-dark font-black uppercase text-center hover:bg-dark hover:text-white transition-colors">Seleccionar</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- YouTube Video & Testimonios -->
+        <section class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+            
+            <!-- Video YouTube (Izquierda) -->
+            <div>
+                <h2 class="text-4xl font-black uppercase mb-6">Desde<br>Adentro</h2>
+                <div class="aspect-video border-4 border-dark dark-brutal-border shadow-brutal bg-dark overflow-hidden p-1">
+                    <iframe class="w-full h-full" src="https://www.youtube.com/embed/XWyVKW3O6HY?si=TrLcmGYG7GdUtZA_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <!-- Testimonios (Derecha) -->
+            <div class="space-y-8 lg:pt-20">
+                <!-- Quote 1 -->
+                <div class="bg-white dark:bg-dark-bg-card border-4 border-dark dark-brutal-border p-6 shadow-brutal relative">
+                    <div class="absolute -top-4 -left-4 bg-coral text-white border-4 border-dark w-12 h-12 flex items-center justify-center font-black text-2xl rotate-12">"</div>
+                    <p class="font-bold text-lg mb-4 mt-2">¡Aprobé en el primer intento! Las clases de oralidad fueron clave. ¡Mil gracias, Sabri!</p>
+                    <div class="flex items-center gap-3 border-t-2 border-dark dark-brutal-border pt-4">
+                        <div class="font-black uppercase">Bianca</div>
+                        <div class="text-xs bg-dark text-white px-2 py-1 font-bold">ALUMNA EFIP 1</div>
+                    </div>
+                </div>
+
+                <!-- Quote 2 -->
+                <div class="bg-mint text-dark border-4 border-dark p-6 shadow-brutal relative ml-0 lg:ml-12">
+                    <div class="absolute -top-4 -left-4 bg-indigo text-white border-4 border-dark w-12 h-12 flex items-center justify-center font-black text-2xl -rotate-12">"</div>
+                    <p class="font-bold text-lg mb-4 mt-2">El mejor acompañamiento. Sabrina no solo te enseña, te da la confianza para rendir.</p>
+                    <div class="flex items-center gap-3 border-t-2 border-dark pt-4">
+                        <div class="font-black uppercase">Laura</div>
+                        <div class="text-xs bg-dark text-white px-2 py-1 font-bold">ALUMNA EFIP 2</div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+    
+    <!-- Footer Gigante Neo-Brutalista -->
+    <footer class="mt-20 border-t-4 border-dark dark-brutal-border bg-white dark:bg-dark">
+        <!-- Banner Texto Gigante -->
+        <div class="overflow-hidden border-b-4 border-dark dark-brutal-border py-4 bg-indigo text-white">
+            <h2 class="text-[10vw] font-black uppercase leading-none whitespace-nowrap text-center tracking-tighter mix-blend-plus-lighter">
+                SABRINA GENTILE
+            </h2>
+        </div>
+        
+        <div class="max-w-7xl mx-auto px-6 py-12 flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="font-bold uppercase text-sm">
+                &copy; <span id="current-year">2025</span>. TODOS LOS DERECHOS RESERVADOS.
+            </div>
+            
+            <div class="flex flex-wrap gap-2 justify-center">
+                <span class="px-3 py-1 border-2 border-dark dark-brutal-border font-bold text-xs uppercase shadow-[2px_2px_0_#111827] dark:shadow-[2px_2px_0_#F4F0EA]">#ABOGACIA</span>
+                <span class="px-3 py-1 border-2 border-dark dark-brutal-border font-bold text-xs uppercase shadow-[2px_2px_0_#111827] dark:shadow-[2px_2px_0_#F4F0EA]">#SIGLO21</span>
+                <span class="px-3 py-1 border-2 border-dark dark-brutal-border font-bold text-xs uppercase shadow-[2px_2px_0_#111827] dark:shadow-[2px_2px_0_#F4F0EA]">#EFIP</span>
+            </div>
+
+            <div class="font-bold uppercase text-sm">
+                CÓDIGO POR <a href="https://www.juanmartinbarrientos.com/" target="_blank" rel="noopener noreferrer" class="text-coral hover:text-indigo transition-colors underline decoration-4 underline-offset-4">JMB</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>

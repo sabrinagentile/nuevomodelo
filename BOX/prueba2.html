@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Portfolio Profesional - Asesoría EFIP 1 y 2 - Sabrina Gentile</title>
+    <meta name="description" content="Asesoría experta y clases personalizadas para aprobar los exámenes finales EFIP 1 y 2 de Abogacía en la Universidad Siglo 21. Preparate con un método probado y rendí con seguridad.">
+    <meta name="keywords" content="EFIP 1, EFIP 2, Abogacía, Siglo 21, clases particulares, asesoría, derecho, examen final, Sabrina Gentile">
+    <meta name="author" content="Sabrina Gentile">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Configuración personalizada de Tailwind -->
+    <script>
+        tailwind.config = {
+            darkMode: 'media',
+            theme: {
+                extend: {
+                    colors: {
+                        cream: {
+                            DEFAULT: '#F9F8F4',
+                            dark: '#EAE8E3'
+                        },
+                        wine: {
+                            500: '#8A3245',
+                            700: '#6B2737', // Color marca
+                            900: '#4A1A25'
+                        },
+                        ink: {
+                            DEFAULT: '#1A1A1A',
+                            light: '#333333'
+                        }
+                    },
+                    fontFamily: {
+                        // Playfair para títulos (Editorial)
+                        serif: ['"Playfair Display"', 'serif'],
+                        // DM Sans para cuerpo de texto
+                        sans: ['"DM Sans"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Playfair+Display:ital,wght@0,400;0,600;0,800;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Custom Styles -->
+    <style>
+        body {
+            background-color: #F9F8F4; /* Cream */
+            color: #1A1A1A;
+            -webkit-font-smoothing: antialiased;
+        }
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #121212;
+                color: #F9F8F4;
+            }
+        }
+        /* Líneas divisorias finas para el look editorial */
+        .editorial-border {
+            border-color: rgba(26, 26, 26, 0.1);
+        }
+        @media (prefers-color-scheme: dark) {
+            .editorial-border {
+                border-color: rgba(249, 248, 244, 0.1);
+            }
+        }
+        /* Efecto de ruido sutil para textura de papel */
+        .noise-bg {
+            position: relative;
+        }
+        .noise-bg::before {
+            content: "";
+            position: fixed;
+            top: 0; left: 0; width: 100vw; height: 100vh;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.03'/%3E%3C/svg%3E");
+            pointer-events: none;
+            z-index: 50;
+        }
+    </style>
+</head>
+<body class="noise-bg selection:bg-wine-700 selection:text-cream">
+
+    <!-- Navbar / Header Minimalista -->
+    <nav class="border-b editorial-border px-6 py-4 flex justify-between items-center max-w-7xl mx-auto">
+        <div class="font-serif font-bold text-xl tracking-wider text-wine-700 dark:text-wine-500 uppercase">
+            S. Gentile
+        </div>
+        <div class="text-xs tracking-[0.2em] uppercase font-sans font-medium text-ink-light dark:text-gray-400">
+            Asesoría Legal Académica
+        </div>
+    </nav>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6">
+
+        <!-- Sección Principal (Hero + Video) -->
+        <section class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 pt-12 pb-24 border-b editorial-border items-center">
+            
+            <!-- Columna de Texto -->
+            <div class="lg:col-span-7 flex flex-col justify-center order-2 lg:order-1">
+                <span class="text-wine-700 dark:text-wine-500 font-serif italic text-xl mb-4 block">
+                    Universidad Siglo 21
+                </span>
+                <h1 class="text-6xl sm:text-7xl lg:text-8xl font-serif font-bold leading-[0.95] tracking-tight mb-8">
+                    Aprobá <br>
+                    <span class="text-wine-700 dark:text-wine-500">EFIP 1 y 2</span> <br>
+                    con seguridad.
+                </h1>
+                
+                <p class="text-lg lg:text-xl font-sans text-ink-light dark:text-gray-300 max-w-md leading-relaxed mb-10 border-l-2 border-wine-700 pl-6">
+                    Metodología de estudio comprobada, clases en vivo e interacción constante. Dejá los nervios atrás y enfocáte en tu título.
+                </p>
+
+                <div>
+                    <a href="https://api.whatsapp.com/send?phone=5491126723971&text=Hola,%20quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20las%20clases%20de%20EFIP." target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-10 py-4 bg-ink dark:bg-cream text-cream dark:text-ink font-sans font-medium uppercase tracking-widest text-sm hover:bg-wine-700 dark:hover:bg-wine-500 dark:hover:text-cream transition-all duration-500 group">
+                        Solicitar Información
+                        <svg class="w-4 h-4 ml-3 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Columna del Video Vertical -->
+            <div class="lg:col-span-5 order-1 lg:order-2 flex justify-center lg:justify-end">
+                <div class="w-full max-w-sm relative">
+                    <!-- Marco decorativo offset -->
+                    <div class="absolute top-4 -right-4 w-full h-full border border-wine-700 dark:border-wine-500 z-0 hidden sm:block"></div>
+                    
+                    <div class="relative aspect-[9/16] overflow-hidden z-10 shadow-2xl bg-black">
+                        <video class="absolute inset-0 w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity duration-500" controls playsinline poster="https://placehold.co/720x1280/1A1A1A/F9F8F4?font=playfair-display&text=Presentación">
+                            <source src="https://raw.githubusercontent.com/sabrinagentile/Asesoria/main/prueba.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <!-- Caption -->
+                    <div class="mt-4 text-xs font-sans tracking-widest uppercase text-right text-ink-light dark:text-gray-400">
+                        FIG. 1 &mdash; Conocé mi propuesta
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Metodología: Estilo Lista Editorial -->
+        <section class="py-24 border-b editorial-border">
+            <div class="grid grid-cols-1 lg:grid-cols-4 gap-12">
+                <div class="lg:col-span-1">
+                    <h2 class="text-4xl font-serif font-bold mb-4">El Método.</h2>
+                    <p class="font-sans text-ink-light dark:text-gray-400 text-sm">
+                        Cuatro pilares fundamentales diseñados para garantizar tu éxito en la instancia oral.
+                    </p>
+                </div>
+                
+                <div class="lg:col-span-3 flex flex-col">
+                    <!-- Item 1 -->
+                    <div class="border-t editorial-border py-8 grid grid-cols-1 sm:grid-cols-12 gap-4 items-start group">
+                        <div class="sm:col-span-2 text-wine-700 dark:text-wine-500 font-serif text-2xl italic">01.</div>
+                        <div class="sm:col-span-4 font-sans font-bold text-xl uppercase tracking-wide">Clases en Vivo</div>
+                        <div class="sm:col-span-6 font-sans text-ink-light dark:text-gray-300">Encuentros dinámicos en tiempo real para asimilar conceptos complejos y resolver dudas al instante, sin intermediarios.</div>
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="border-t editorial-border py-8 grid grid-cols-1 sm:grid-cols-12 gap-4 items-start group">
+                        <div class="sm:col-span-2 text-wine-700 dark:text-wine-500 font-serif text-2xl italic">02.</div>
+                        <div class="sm:col-span-4 font-sans font-bold text-xl uppercase tracking-wide">Grupos Reducidos</div>
+                        <div class="sm:col-span-6 font-sans text-ink-light dark:text-gray-300">Estudio colaborativo y debate constante en grupos limitados de WhatsApp. Una red de contención académica.</div>
+                    </div>
+                    <!-- Item 3 -->
+                    <div class="border-t editorial-border py-8 grid grid-cols-1 sm:grid-cols-12 gap-4 items-start group">
+                        <div class="sm:col-span-2 text-wine-700 dark:text-wine-500 font-serif text-2xl italic">03.</div>
+                        <div class="sm:col-span-4 font-sans font-bold text-xl uppercase tracking-wide">Soporte Continuo</div>
+                        <div class="sm:col-span-6 font-sans text-ink-light dark:text-gray-300">Acompañamiento personalizado. Estoy a disposición para guiarte en cada paso hasta el día de la mesa examinadora.</div>
+                    </div>
+                    <!-- Item 4 -->
+                    <div class="border-t border-b editorial-border py-8 grid grid-cols-1 sm:grid-cols-12 gap-4 items-start group">
+                        <div class="sm:col-span-2 text-wine-700 dark:text-wine-500 font-serif text-2xl italic">04.</div>
+                        <div class="sm:col-span-4 font-sans font-bold text-xl uppercase tracking-wide">Material Exclusivo</div>
+                        <div class="sm:col-span-6 font-sans text-ink-light dark:text-gray-300">Acceso a bibliografía actualizada, guías de estructuración mental y resolución de casos prácticos de exámenes reales.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Planes de Estudio -->
+        <section class="py-24 border-b editorial-border">
+            <h2 class="text-5xl font-serif font-bold text-center mb-16">Inversión Académica</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <!-- Plan 1 -->
+                <div class="border editorial-border p-8 flex flex-col h-full bg-cream dark:bg-[#151515]">
+                    <div class="mb-8">
+                        <h3 class="font-sans font-bold text-sm tracking-[0.2em] uppercase text-ink-light dark:text-gray-400 mb-2">EFIP 1</h3>
+                        <h4 class="font-serif text-3xl mb-4">Regular Full</h4>
+                        <div class="w-12 h-[1px] bg-wine-700 dark:bg-wine-500 mb-4"></div>
+                        <p class="font-serif text-4xl lg:text-5xl">$390.000</p>
+                    </div>
+                    <ul class="font-sans text-sm text-ink-light dark:text-gray-400 space-y-3 mb-10 flex-grow">
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-wine-700 rounded-full mr-3"></span> Duración: 5 Semanas</li>
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-wine-700 rounded-full mr-3"></span> Cobertura total del programa</li>
+                    </ul>
+                    <a href="https://api.whatsapp.com/send?phone=5491126723971&text=Hola,%20quisiera%20contratar%20el%20PACK%20REGULAR%20FULL%20(EFIP%201)." class="block w-full py-3 text-center border border-ink dark:border-cream font-sans text-sm uppercase tracking-widest hover:bg-ink hover:text-cream dark:hover:bg-cream dark:hover:text-ink transition-colors">Seleccionar</a>
+                </div>
+
+                <!-- Plan 2 (Destacado) -->
+                <div class="border border-wine-700 bg-wine-900 text-cream p-8 flex flex-col h-full relative transform md:-translate-y-4 shadow-2xl">
+                    <div class="absolute top-0 right-0 bg-wine-500 text-xs font-sans tracking-widest uppercase px-4 py-2">
+                        Más Elegido
+                    </div>
+                    <div class="mb-8 mt-4">
+                        <h3 class="font-sans font-bold text-sm tracking-[0.2em] uppercase text-wine-200 mb-2">Intensivo</h3>
+                        <h4 class="font-serif text-3xl mb-4 text-white">Rápido y Efectivo</h4>
+                        <div class="w-12 h-[1px] bg-wine-500 mb-4"></div>
+                        <p class="font-serif text-4xl lg:text-5xl text-white">$260.000</p>
+                    </div>
+                    <ul class="font-sans text-sm text-wine-100 space-y-3 mb-10 flex-grow">
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-wine-500 rounded-full mr-3"></span> Duración: 4 Días</li>
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-wine-500 rounded-full mr-3"></span> Repaso de casos prácticos</li>
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-wine-500 rounded-full mr-3"></span> Simulacro de oralidad</li>
+                    </ul>
+                    <a href="https://api.whatsapp.com/send?phone=5491126723971&text=Hola,%20quisiera%20contratar%20el%20PACK%20INTENSIVO." class="block w-full py-3 text-center bg-cream text-wine-900 font-sans font-bold text-sm uppercase tracking-widest hover:bg-white transition-colors">Inscribirse</a>
+                </div>
+
+                <!-- Plan 3 -->
+                <div class="border editorial-border p-8 flex flex-col h-full bg-cream dark:bg-[#151515]">
+                    <div class="mb-8">
+                        <h3 class="font-sans font-bold text-sm tracking-[0.2em] uppercase text-ink-light dark:text-gray-400 mb-2">EFIP 2</h3>
+                        <h4 class="font-serif text-3xl mb-4">Regular Full</h4>
+                        <div class="w-12 h-[1px] bg-wine-700 dark:bg-wine-500 mb-4"></div>
+                        <p class="font-serif text-4xl lg:text-5xl">$420.000</p>
+                    </div>
+                    <ul class="font-sans text-sm text-ink-light dark:text-gray-400 space-y-3 mb-10 flex-grow">
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-wine-700 rounded-full mr-3"></span> Duración: 5 Semanas</li>
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-wine-700 rounded-full mr-3"></span> Enfoque práctico y jurisprudencial</li>
+                    </ul>
+                    <a href="https://api.whatsapp.com/send?phone=5491126723971&text=Hola,%20quisiera%20contratar%20el%20PACK%20REGULAR%20FULL%20(EFIP%202)." class="block w-full py-3 text-center border border-ink dark:border-cream font-sans text-sm uppercase tracking-widest hover:bg-ink hover:text-cream dark:hover:bg-cream dark:hover:text-ink transition-colors">Seleccionar</a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Video YouTube + Testimonios (Grid Combinado) -->
+        <section class="py-24 border-b editorial-border grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            
+            <!-- YouTube -->
+            <div>
+                <h2 class="text-3xl font-serif font-bold mb-6">Desde Adentro.</h2>
+                <div class="aspect-video bg-ink border editorial-border p-2">
+                    <iframe class="w-full h-full" src="https://www.youtube.com/embed/XWyVKW3O6HY?si=TrLcmGYG7GdUtZA_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <!-- Testimonios -->
+            <div class="space-y-12">
+                <div class="relative">
+                    <span class="absolute -top-8 -left-6 text-8xl font-serif text-wine-700/20 dark:text-wine-500/10">"</span>
+                    <p class="font-serif text-xl lg:text-2xl leading-relaxed relative z-10 italic">
+                        Aprobé en el primer intento. Las clases de oralidad fueron clave para perder el miedo. Mil gracias, Sabri.
+                    </p>
+                    <div class="mt-4 font-sans font-bold uppercase tracking-widest text-sm text-wine-700 dark:text-wine-500">
+                        — Bianca, Alumna EFIP 1
+                    </div>
+                </div>
+
+                <div class="relative">
+                    <span class="absolute -top-8 -left-6 text-8xl font-serif text-wine-700/20 dark:text-wine-500/10">"</span>
+                    <p class="font-serif text-xl lg:text-2xl leading-relaxed relative z-10 italic">
+                        El mejor acompañamiento. Sabrina no solo te enseña la teoría, te da la confianza y la estrategia para rendir.
+                    </p>
+                    <div class="mt-4 font-sans font-bold uppercase tracking-widest text-sm text-wine-700 dark:text-wine-500">
+                        — Laura, Alumna EFIP 2
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+    
+    <!-- Footer -->
+    <footer class="max-w-7xl mx-auto px-6 py-12 flex flex-col md:flex-row justify-between items-center gap-6">
+        <div class="font-sans text-xs tracking-widest uppercase text-ink-light dark:text-gray-500">
+            &copy; <span id="current-year">2025</span> Sabrina Gentile. Derechos Reservados.
+        </div>
+        
+        <div class="flex flex-wrap gap-4 justify-center font-sans text-xs tracking-widest uppercase text-ink-light dark:text-gray-500">
+            <span>#Abogacía</span>
+            <span>#Siglo21</span>
+            <span>#ExamenFinal</span>
+        </div>
+
+        <div class="font-sans text-xs tracking-widest uppercase text-ink-light dark:text-gray-500">
+            Design by <a href="https://www.juanmartinbarrientos.com/" target="_blank" rel="noopener noreferrer" class="font-bold text-wine-700 dark:text-wine-500 hover:underline">JMB</a>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>

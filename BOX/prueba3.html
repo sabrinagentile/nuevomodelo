@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Portfolio Profesional - Asesoría EFIP 1 y 2 - Sabrina Gentile</title>
+    <meta name="description" content="Asesoría experta y clases personalizadas para aprobar los exámenes finales EFIP 1 y 2 de Abogacía en la Universidad Siglo 21. Preparate con un método probado y rendí con seguridad.">
+    <meta name="keywords" content="EFIP 1, EFIP 2, Abogacía, Siglo 21, clases particulares, asesoría, derecho, examen final, Sabrina Gentile">
+    <meta name="author" content="Sabrina Gentile">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Configuración personalizada de Tailwind -->
+    <script>
+        tailwind.config = {
+            darkMode: 'media',
+            theme: {
+                extend: {
+                    colors: {
+                        // Paleta personalizada Celeste (basada en Sky/Cyan)
+                        celeste: {
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            200: '#bae6fd',
+                            300: '#7dd3fc',
+                            400: '#38bdf8',
+                            500: '#0ea5e9', // Base principal
+                            600: '#0284c7',
+                            700: '#0369a1',
+                            800: '#075985',
+                            900: '#0c4a6e',
+                            950: '#082f49',
+                        },
+                        slate: {
+                            850: '#152033',
+                            900: '#0f172a',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                    },
+                    boxShadow: {
+                        'glass': '0 8px 32px 0 rgba(14, 165, 233, 0.1)',
+                        'glass-dark': '0 8px 32px 0 rgba(0, 0, 0, 0.3)',
+                        'glow': '0 0 40px -10px rgba(14, 165, 233, 0.5)',
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Custom Styles -->
+    <style>
+        body {
+            background-color: #FAFAFA;
+            color: #1e293b; /* slate-800 */
+            -webkit-font-smoothing: antialiased;
+        }
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #0f172a; /* slate-900 */
+                color: #f8fafc; /* slate-50 */
+            }
+        }
+        /* Efecto Cristal Base */
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+        }
+        @media (prefers-color-scheme: dark) {
+            .glass-panel {
+                background: rgba(30, 41, 59, 0.6); /* slate-800 con opacidad */
+                border: 1px solid rgba(255, 255, 255, 0.05);
+            }
+        }
+        /* Gradiente animado para el botón principal */
+        .bg-gradient-hover {
+            background-size: 200% auto;
+            transition: 0.5s;
+        }
+        .bg-gradient-hover:hover {
+            background-position: right center;
+        }
+    </style>
+</head>
+<body class="selection:bg-celeste-200 selection:text-celeste-900 overflow-x-hidden relative">
+
+    <!-- Orbes Decorativos de Fondo (Efecto Luz / Airy) -->
+    <div class="fixed inset-0 pointer-events-none z-0 overflow-hidden">
+        <div class="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] bg-celeste-300/30 dark:bg-celeste-600/20 rounded-full blur-[120px] mix-blend-multiply dark:mix-blend-screen"></div>
+        <div class="absolute bottom-[-10%] right-[-10%] w-[60%] h-[60%] bg-blue-200/40 dark:bg-celeste-900/40 rounded-full blur-[120px] mix-blend-multiply dark:mix-blend-screen"></div>
+        <div class="absolute top-[40%] left-[60%] w-[30%] h-[30%] bg-cyan-200/30 dark:bg-cyan-900/30 rounded-full blur-[100px] mix-blend-multiply dark:mix-blend-screen"></div>
+    </div>
+
+    <!-- Header Flotante -->
+    <header class="fixed top-0 left-0 w-full z-50 px-4 py-4 sm:px-6">
+        <div class="max-w-6xl mx-auto glass-panel rounded-full px-6 py-3 flex justify-between items-center shadow-glass dark:shadow-glass-dark transition-all">
+            <div class="font-extrabold text-xl tracking-tight text-slate-800 dark:text-white flex items-center gap-2">
+                <div class="w-8 h-8 rounded-full bg-gradient-to-br from-celeste-400 to-celeste-600 flex items-center justify-center text-white text-sm">SG</div>
+                Sabrina Gentile
+            </div>
+            <a href="https://api.whatsapp.com/send?phone=5491126723971" target="_blank" rel="noopener noreferrer" class="text-sm font-semibold text-celeste-600 dark:text-celeste-400 hover:text-celeste-700 transition-colors">
+                Contacto
+            </a>
+        </div>
+    </header>
+
+    <main class="relative z-10 pt-32 pb-20 px-4 sm:px-6 max-w-7xl mx-auto">
+
+        <!-- Hero Section (Split Layout) -->
+        <section class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center min-h-[80vh]">
+            
+            <!-- Texto (Izquierda) -->
+            <div class="flex flex-col justify-center space-y-8 order-2 lg:order-1 text-center lg:text-left">
+                <div class="inline-flex items-center justify-center lg:justify-start gap-2">
+                    <span class="relative flex h-3 w-3">
+                      <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-celeste-400 opacity-75"></span>
+                      <span class="relative inline-flex rounded-full h-3 w-3 bg-celeste-500"></span>
+                    </span>
+                    <span class="text-sm font-bold text-celeste-600 dark:text-celeste-400 uppercase tracking-widest">Inscripciones Abiertas</span>
+                </div>
+                
+                <h1 class="text-5xl sm:text-6xl lg:text-7xl font-extrabold leading-[1.1] text-slate-900 dark:text-white tracking-tight">
+                    Aprobá el EFIP <br>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-celeste-500 to-cyan-400">con seguridad.</span>
+                </h1>
+                
+                <p class="text-lg sm:text-xl text-slate-600 dark:text-slate-300 max-w-lg mx-auto lg:mx-0 font-medium leading-relaxed">
+                    Preparate en 5 semanas con un método de estudio probado, clases en vivo e interacción constante. Dejá atrás los nervios.
+                </p>
+
+                <div class="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start pt-4">
+                    <a href="https://api.whatsapp.com/send?phone=5491126723971&text=Hola,%20quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20las%20clases%20de%20EFIP." target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto px-8 py-4 bg-gradient-to-r from-celeste-500 via-celeste-400 to-cyan-500 bg-gradient-hover text-white font-bold rounded-full shadow-glow hover:shadow-[0_0_60px_-10px_rgba(14,165,233,0.7)] transform hover:-translate-y-1 transition-all duration-300 text-center flex items-center justify-center gap-2">
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.06 21.94L7.31 20.58C8.75 21.37 10.36 21.82 12.04 21.82C17.5 21.82 21.95 17.37 21.95 11.91C21.95 9.27 20.92 6.83 19.17 4.99C17.42 3.14 14.87 2 12.04 2ZM12.04 3.67C16.56 3.67 20.28 7.38 20.28 11.91C20.28 16.44 16.56 20.15 12.04 20.15C10.51 20.15 9.04 19.74 7.77 19L7.29 18.73L4.93 19.41L5.63 17.11L5.34 16.62C4.38 15.11 3.8 13.51 3.8 11.91C3.8 7.38 7.52 3.67 12.04 3.67ZM9.15 8.1C8.93 8.1 8.74 8.11 8.57 8.13C8.4 8.14 8.12 8.22 7.88 8.47C7.64 8.72 7.03 9.3 7.03 10.4C7.03 11.5 7.91 12.54 8.05 12.71C8.2 12.88 10.13 15.86 12.96 17.08C15.33 18.06 15.8 17.84 16.22 17.79C16.64 17.74 17.58 17.16 17.79 16.56C18 15.96 18 15.46 17.92 15.35C17.83 15.24 17.68 15.18 17.41 15.05C17.14 14.92 15.74 14.25 15.49 14.15C15.24 14.05 15.08 14.01 14.92 14.26C14.76 14.51 14.24 15.18 14.1 15.35C13.96 15.52 13.81 15.54 13.54 15.41C13.27 15.28 12.23 14.93 11.01 13.87C10.02 13.01 9.35 12.03 9.19 11.78C9.03 11.53 9.17 11.39 9.3 11.27C9.42 11.16 9.57 10.96 9.71 10.81C9.85 10.66 9.89 10.55 9.97 10.4C10.05 10.25 10.01 10.12 9.94 10.01C9.87 9.9 9.34 8.54 9.15 8.1Z"></path></svg>
+                        Pedir Info por WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <!-- Contenedor del Video (Derecha) -->
+            <div class="order-1 lg:order-2 flex justify-center lg:justify-end relative group perspective-1000">
+                <!-- Efecto resplandor detrás del video -->
+                <div class="absolute inset-0 bg-gradient-to-br from-celeste-400 to-cyan-300 rounded-[3rem] blur-2xl opacity-40 group-hover:opacity-70 transition-opacity duration-700"></div>
+                
+                <!-- Dispositivo / Cristal -->
+                <div class="relative w-full max-w-[300px] sm:max-w-sm aspect-[9/16] glass-panel rounded-[2.5rem] p-2 shadow-2xl transform transition-transform duration-700 hover:scale-[1.02] hover:-rotate-1 z-10">
+                    <div class="w-full h-full rounded-[2rem] overflow-hidden bg-slate-900 relative">
+                        <!-- Muesca (Notch) simulada tipo smartphone moderno -->
+                        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-6 bg-black rounded-b-3xl z-20"></div>
+                        
+                        <video class="absolute inset-0 w-full h-full object-cover" controls playsinline poster="https://placehold.co/720x1280/0f172a/ffffff?font=plus-jakarta-sans&text=Ver+Presentación">
+                            <source src="https://raw.githubusercontent.com/sabrinagentile/Asesoria/main/prueba.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Metodología Glass Cards -->
+        <section class="py-24">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900 dark:text-white">Mi Metodología de Éxito</h2>
+                <p class="mt-4 text-slate-500 dark:text-slate-400">Todo lo que necesitás para aprobar tu examen final.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Card 1 -->
+                <div class="glass-panel p-8 rounded-3xl text-center group hover:-translate-y-2 transition-transform duration-300">
+                    <div class="w-16 h-16 mx-auto bg-celeste-100 dark:bg-celeste-900/50 rounded-2xl flex items-center justify-center text-celeste-500 dark:text-celeste-400 mb-6 shadow-[inset_0_2px_4px_rgba(255,255,255,0.6)] group-hover:rotate-6 transition-transform">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-800 dark:text-slate-100 mb-3">Clases en Vivo</h3>
+                    <p class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed">Dinámicas, en tiempo real, ideales para resolver todas tus dudas al instante.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="glass-panel p-8 rounded-3xl text-center group hover:-translate-y-2 transition-transform duration-300">
+                    <div class="w-16 h-16 mx-auto bg-celeste-100 dark:bg-celeste-900/50 rounded-2xl flex items-center justify-center text-celeste-500 dark:text-celeste-400 mb-6 shadow-[inset_0_2px_4px_rgba(255,255,255,0.6)] group-hover:rotate-6 transition-transform">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-800 dark:text-slate-100 mb-3">Grupos Reducidos</h3>
+                    <p class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed">Formamos grupos de estudio por WhatsApp para un aprendizaje colaborativo y cercano.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="glass-panel p-8 rounded-3xl text-center group hover:-translate-y-2 transition-transform duration-300">
+                    <div class="w-16 h-16 mx-auto bg-celeste-100 dark:bg-celeste-900/50 rounded-2xl flex items-center justify-center text-celeste-500 dark:text-celeste-400 mb-6 shadow-[inset_0_2px_4px_rgba(255,255,255,0.6)] group-hover:rotate-6 transition-transform">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-800 dark:text-slate-100 mb-3">Soporte Continuo</h3>
+                    <p class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed">Apoyo y seguimiento permanente vía WhatsApp para que nunca te sientas solo/a.</p>
+                </div>
+                <!-- Card 4 -->
+                <div class="glass-panel p-8 rounded-3xl text-center group hover:-translate-y-2 transition-transform duration-300">
+                    <div class="w-16 h-16 mx-auto bg-celeste-100 dark:bg-celeste-900/50 rounded-2xl flex items-center justify-center text-celeste-500 dark:text-celeste-400 mb-6 shadow-[inset_0_2px_4px_rgba(255,255,255,0.6)] group-hover:rotate-6 transition-transform">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-800 dark:text-slate-100 mb-3">Material Exclusivo</h3>
+                    <p class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed">Guías, casos prácticos y resúmenes de la bibliografía obligatoria actualizada.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Planes (Pricing) -->
+        <section class="py-24">
+            <h2 class="text-3xl md:text-4xl font-extrabold text-center text-slate-900 dark:text-white mb-16">Elegí tu Plan de Estudio</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center max-w-6xl mx-auto">
+                <!-- Plan 1 -->
+                <div class="glass-panel p-8 rounded-[2.5rem] flex flex-col items-center text-center">
+                    <span class="px-4 py-1 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 rounded-full text-sm font-bold tracking-wide mb-6">EFIP 1</span>
+                    <h3 class="text-2xl font-bold text-slate-900 dark:text-white mb-2">Pack Regular</h3>
+                    <div class="text-4xl font-extrabold text-celeste-500 my-6">$390.000</div>
+                    <p class="text-slate-500 dark:text-slate-400 text-sm mb-8 border-t border-slate-200 dark:border-slate-700/50 pt-6 w-full">Programa completo de 5 semanas para llegar seguro a la mesa.</p>
+                    <a href="https://api.whatsapp.com/send?phone=5491126723971&text=Hola,%20quisiera%20contratar%20el%20PACK%20REGULAR%20FULL%20(EFIP%201)." class="w-full py-4 rounded-2xl bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-800 dark:text-white font-bold transition-colors">Seleccionar</a>
+                </div>
+
+                <!-- Plan 2 (Destacado) -->
+                <div class="relative p-1 rounded-[2.5rem] bg-gradient-to-b from-celeste-400 to-cyan-600 shadow-glow transform md:-translate-y-4">
+                    <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-slate-900 text-white px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest shadow-lg whitespace-nowrap z-10">
+                        ✨ Más Elegido
+                    </div>
+                    <div class="bg-white dark:bg-slate-900 p-8 rounded-[2.4rem] flex flex-col items-center text-center h-full relative overflow-hidden">
+                        <!-- Destello sutil de fondo -->
+                        <div class="absolute top-0 right-0 w-32 h-32 bg-celeste-500/10 rounded-full blur-2xl"></div>
+                        
+                        <span class="px-4 py-1 bg-celeste-50 dark:bg-celeste-900/30 text-celeste-600 dark:text-celeste-400 rounded-full text-sm font-bold tracking-wide mb-6 relative z-10">INTENSIVO</span>
+                        <h3 class="text-2xl font-bold text-slate-900 dark:text-white mb-2 relative z-10">Rápido y Efectivo</h3>
+                        <div class="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-celeste-500 to-cyan-500 my-6 relative z-10">$260.000</div>
+                        <p class="text-slate-500 dark:text-slate-400 text-sm mb-8 border-t border-slate-100 dark:border-slate-800 pt-6 w-full relative z-10">Foco total durante 4 días para afinar casos prácticos y oralidad.</p>
+                        <a href="https://api.whatsapp.com/send?phone=5491126723971&text=Hola,%20quisiera%20contratar%20el%20PACK%20INTENSIVO." class="w-full py-4 rounded-2xl bg-gradient-to-r from-celeste-500 to-cyan-500 text-white font-bold shadow-lg hover:shadow-celeste-500/50 transition-all transform hover:-translate-y-0.5 relative z-10">Contratar Ahora</a>
+                    </div>
+                </div>
+
+                <!-- Plan 3 -->
+                <div class="glass-panel p-8 rounded-[2.5rem] flex flex-col items-center text-center">
+                    <span class="px-4 py-1 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 rounded-full text-sm font-bold tracking-wide mb-6">EFIP 2</span>
+                    <h3 class="text-2xl font-bold text-slate-900 dark:text-white mb-2">Pack Regular</h3>
+                    <div class="text-4xl font-extrabold text-celeste-500 my-6">$420.000</div>
+                    <p class="text-slate-500 dark:text-slate-400 text-sm mb-8 border-t border-slate-200 dark:border-slate-700/50 pt-6 w-full">Programa completo de 5 semanas enfocado en práctica y jurisprudencia.</p>
+                    <a href="https://api.whatsapp.com/send?phone=5491126723971&text=Hola,%20quisiera%20contratar%20el%20PACK%20REGULAR%20FULL%20(EFIP%202)." class="w-full py-4 rounded-2xl bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-800 dark:text-white font-bold transition-colors">Seleccionar</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- YouTube Video & Testimonios -->
+        <section class="py-24 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            
+            <!-- Video YouTube (Izquierda) -->
+            <div class="lg:col-span-7">
+                <div class="mb-8">
+                    <h2 class="text-3xl font-extrabold text-slate-900 dark:text-white mb-2">Conocé mi método desde adentro</h2>
+                    <p class="text-slate-500 dark:text-slate-400">Te muestro cómo preparamos a los alumnos para que rindan sin miedo.</p>
+                </div>
+                <div class="aspect-video rounded-[2rem] overflow-hidden shadow-glass dark:shadow-glass-dark border border-white/40 dark:border-slate-700 relative group">
+                    <iframe class="w-full h-full relative z-10" src="https://www.youtube.com/embed/XWyVKW3O6HY?si=TrLcmGYG7GdUtZA_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <!-- Testimonios (Derecha) -->
+            <div class="lg:col-span-5 space-y-6 relative">
+                <!-- Quote Icon BG -->
+                <svg class="absolute -top-10 -left-6 w-32 h-32 text-celeste-100 dark:text-slate-800/50 -z-10" fill="currentColor" viewBox="0 0 24 24"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"></path></svg>
+                
+                <!-- Quote 1 -->
+                <div class="glass-panel p-6 rounded-3xl relative border-l-4 border-l-celeste-400">
+                    <p class="text-slate-600 dark:text-slate-300 italic mb-4">"¡Aprobé en el primer intento! Las clases de oralidad fueron clave para organizarme mentalmente. ¡Mil gracias, Sabri!"</p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-full bg-celeste-100 dark:bg-slate-800 flex items-center justify-center font-bold text-celeste-500">B</div>
+                        <div>
+                            <div class="font-bold text-slate-900 dark:text-white text-sm">Bianca</div>
+                            <div class="text-xs text-celeste-500 dark:text-celeste-400">Alumna EFIP 1</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quote 2 -->
+                <div class="glass-panel p-6 rounded-3xl relative border-l-4 border-l-cyan-400">
+                    <p class="text-slate-600 dark:text-slate-300 italic mb-4">"El mejor acompañamiento. Sabrina no solo te enseña, te da la confianza y seguridad para rendir frente a la cámara."</p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-full bg-cyan-100 dark:bg-slate-800 flex items-center justify-center font-bold text-cyan-500">L</div>
+                        <div>
+                            <div class="font-bold text-slate-900 dark:text-white text-sm">Laura</div>
+                            <div class="text-xs text-cyan-500 dark:text-cyan-400">Alumna EFIP 2</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+    
+    <!-- Footer Minimalista Tech -->
+    <footer class="relative z-10 border-t border-slate-200 dark:border-slate-800 mt-12 bg-white/50 dark:bg-slate-900/50 backdrop-blur-md">
+        <div class="max-w-7xl mx-auto px-6 py-12 flex flex-col md:flex-row justify-between items-center gap-6">
+            
+            <div class="flex flex-col items-center md:items-start">
+                <div class="font-bold text-lg text-slate-800 dark:text-white mb-2 flex items-center gap-2">
+                    <span class="w-3 h-3 rounded-full bg-celeste-400"></span> Sabrina Gentile
+                </div>
+                <div class="text-sm text-slate-500 dark:text-slate-400">
+                    &copy; <span id="current-year">2025</span>. Asesoría Legal. Todos los derechos reservados.
+                </div>
+            </div>
+            
+            <div class="flex flex-wrap gap-2 justify-center">
+                <span class="px-4 py-1.5 glass-panel rounded-full text-xs font-semibold text-slate-600 dark:text-slate-300">#abogacia</span>
+                <span class="px-4 py-1.5 glass-panel rounded-full text-xs font-semibold text-slate-600 dark:text-slate-300">#siglo21</span>
+                <span class="px-4 py-1.5 glass-panel rounded-full text-xs font-semibold text-slate-600 dark:text-slate-300">#efip</span>
+            </div>
+
+            <div class="text-sm text-slate-500 dark:text-slate-400">
+                Desarrollado por <a href="https://www.juanmartinbarrientos.com/" target="_blank" rel="noopener noreferrer" class="font-bold text-celeste-500 hover:text-celeste-600 transition-colors">JMB</a>
+            </div>
+            
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
